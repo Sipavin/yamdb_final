@@ -1,3 +1,4 @@
+from categories.models import Category, Genre, Title
 from django.contrib.auth import get_user_model
 from django.contrib.auth.tokens import default_token_generator
 from django.core.exceptions import ObjectDoesNotExist
@@ -10,9 +11,8 @@ from rest_framework.generics import get_object_or_404
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import AccessToken
-
-from categories.models import Category, Genre, Title
 from reviews.models import Review
+
 from .filters import TitleFilter
 from .pagination import UserPagination
 from .permissions import (IsAdminModeratorOrReadOnly,
@@ -92,8 +92,7 @@ class CategoryGenreViewSet(viewsets.ModelViewSet):
         lookup_url_kwarg = self.lookup_url_kwarg or self.lookup_field
         filter_kwargs = {self.lookup_field: self.kwargs[lookup_url_kwarg]}
         try:
-            obj = queryset.get(**filter_kwargs)
-            return obj
+            return queryset.get(**filter_kwargs)
         except ObjectDoesNotExist:
             raise exceptions.MethodNotAllowed(method='GET')
 
