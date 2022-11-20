@@ -1,0 +1,144 @@
+[{"model": "categories.category", "pk": 1, "fields": {"name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\
+u044f 1", "slug": "cat1"}}, {"model": "categories.category", "pk": 2, "fields": {"name": "\u041a\u0430\u0442\u04
+35\u0433\u043e\u0440\u0438\u044f 2", "slug": "cat2"}}, {"model": "categories.genre", "pk": 1, "fields": {"name":
+ "\u0416\u0430\u043d\u0440 1", "slug": "j1"}}, {"model": "categories.genre", "pk": 2, "fields": {"name": "\u0416
+\u0430\u043d\u0440 2", "slug": "j2"}}, {"model": "categories.title", "pk": 1, "fields": {"name": "\u0424\u0438\u
+043b\u044c\u043c1", "year": 2001, "description": "", "category": 1}}, {"model": "categories.title", "pk": 2, "fi
+elds": {"name": "\u0424\u0438\u043b\u044c\u043c2", "year": 1995, "description": "", "category": 2}}, {"model": "
+contenttypes.contenttype", "pk": 1, "fields": {"app_label": "users", "model": "users"}}, {"model": "contenttypes
+.contenttype", "pk": 2, "fields": {"app_label": "categories", "model": "category"}}, {"model": "contenttypes.con
+tenttype", "pk": 3, "fields": {"app_label": "categories", "model": "genre"}}, {"model": "contenttypes.contenttyp
+e", "pk": 4, "fields": {"app_label": "categories", "model": "title"}}, {"model": "contenttypes.contenttype", "pk
+": 5, "fields": {"app_label": "categories", "model": "titlegenre"}}, {"model": "contenttypes.contenttype", "pk":
+ 6, "fields": {"app_label": "admin", "model": "logentry"}}, {"model": "contenttypes.contenttype", "pk": 7, "fiel
+ds": {"app_label": "auth", "model": "permission"}}, {"model": "contenttypes.contenttype", "pk": 8, "fields": {"a
+pp_label": "auth", "model": "group"}}, {"model": "contenttypes.contenttype", "pk": 9, "fields": {"app_label": "c
+ontenttypes", "model": "contenttype"}}, {"model": "contenttypes.contenttype", "pk": 10, "fields": {"app_label":
+"sessions", "model": "session"}}, {"model": "contenttypes.contenttype", "pk": 11, "fields": {"app_label": "revie
+ws", "model": "comment"}}, {"model": "contenttypes.contenttype", "pk": 12, "fields": {"app_label": "reviews", "m
+odel": "review"}}, {"model": "sessions.session", "pk": "ow2awiqupm6fum7xi0fnwjdukg7vira8", "fields": {"session_d
+ata": "ZGYxYTc4NTAyMDQ0YzIyYjgwOWQzZTkzNzlhNTRhMTk5ZGU2NzAzNjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZ
+W5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI2Y2E0MDgzZmI5YzM1ZDdmZ
+TdmMWQ0NWNlMTYzOGU2OGFhNmViYzM0In0=", "expire_date": "2022-11-29T13:56:20.606Z"}}, {"model": "auth.permission",
+"pk": 1, "fields": {"name": "Can add users", "content_type": 1, "codename": "add_users"}}, {"model": "auth.permi
+ssion", "pk": 2, "fields": {"name": "Can change users", "content_type": 1, "codename": "change_users"}}, {"model
+": "auth.permission", "pk": 3, "fields": {"name": "Can delete users", "content_type": 1, "codename": "delete_use
+rs"}}, {"model": "auth.permission", "pk": 4, "fields": {"name": "Can view users", "content_type": 1, "codename":
+ "view_users"}}, {"model": "auth.permission", "pk": 5, "fields": {"name": "Can add \u041a\u0430\u0442\u0435\u043
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3\u043e\u0440\u0438\u044f", "content_type": 2, "codename": "add_category"}}, {"model": "auth.permission", "pk":
+6, "fields": {"name": "Can change \u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f", "content_type": 2, "c
+odename": "change_category"}}, {"model": "auth.permission", "pk": 7, "fields": {"name": "Can delete \u041a\u0430
+\u0442\u0435\u0433\u043e\u0440\u0438\u044f", "content_type": 2, "codename": "delete_category"}}, {"model": "auth
+.permission", "pk": 8, "fields": {"name": "Can view \u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f", "co
+ntent_type": 2, "codename": "view_category"}}, {"model": "auth.permission", "pk": 9, "fields": {"name": "Can add
+ \u0416\u0430\u043d\u0440", "content_type": 3, "codename": "add_genre"}}, {"model": "auth.permission", "pk": 10,
+ "fields": {"name": "Can change \u0416\u0430\u043d\u0440", "content_type": 3, "codename": "change_genre"}}, {"mo
+del": "auth.permission", "pk": 11, "fields": {"name": "Can delete \u0416\u0430\u043d\u0440", "content_type": 3,
+"codename": "delete_genre"}}, {"model": "auth.permission", "pk": 12, "fields": {"name": "Can view \u0416\u0430\u
+043d\u0440", "content_type": 3, "codename": "view_genre"}}, {"model": "auth.permission", "pk": 13, "fields": {"n
+ame": "Can add \u041f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u0435", "content_type": 4, "co
+dename": "add_title"}}, {"model": "auth.permission", "pk": 14, "fields": {"name": "Can change \u041f\u0440\u043e
+\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u0435", "content_type": 4, "codename": "change_title"}}, {"mode
+l": "auth.permission", "pk": 15, "fields": {"name": "Can delete \u041f\u0440\u043e\u0438\u0437\u0432\u0435\u0434
+\u0435\u043d\u0438\u0435", "content_type": 4, "codename": "delete_title"}}, {"model": "auth.permission", "pk": 1
+6, "fields": {"name": "Can view \u041f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u0435", "cont
+ent_type": 4, "codename": "view_title"}}, {"model": "auth.permission", "pk": 17, "fields": {"name": "Can add tit
+le genre", "content_type": 5, "codename": "add_titlegenre"}}, {"model": "auth.permission", "pk": 18, "fields": {
+"name": "Can change title genre", "content_type": 5, "codename": "change_titlegenre"}}, {"model": "auth.permissi
+on", "pk": 19, "fields": {"name": "Can delete title genre", "content_type": 5, "codename": "delete_titlegenre"}}
+, {"model": "auth.permission", "pk": 20, "fields": {"name": "Can view title genre", "content_type": 5, "codename
+": "view_titlegenre"}}, {"model": "auth.permission", "pk": 21, "fields": {"name": "Can add log entry", "content_
+type": 6, "codename": "add_logentry"}}, {"model": "auth.permission", "pk": 22, "fields": {"name": "Can change lo
+g entry", "content_type": 6, "codename": "change_logentry"}}, {"model": "auth.permission", "pk": 23, "fields": {
+"name": "Can delete log entry", "content_type": 6, "codename": "delete_logentry"}}, {"model": "auth.permission",
+ "pk": 24, "fields": {"name": "Can view log entry", "content_type": 6, "codename": "view_logentry"}}, {"model":
+"auth.permission", "pk": 25, "fields": {"name": "Can add permission", "content_type": 7, "codename": "add_permis
+sion"}}, {"model": "auth.permission", "pk": 26, "fields": {"name": "Can change permission", "content_type": 7, "
+codename": "change_permission"}}, {"model": "auth.permission", "pk": 27, "fields": {"name": "Can delete permissi
+on", "content_type": 7, "codename": "delete_permission"}}, {"model": "auth.permission", "pk": 28, "fields": {"na
+me": "Can view permission", "content_type": 7, "codename": "view_permission"}}, {"model": "auth.permission", "pk
+": 29, "fields": {"name": "Can add group", "content_type": 8, "codename": "add_group"}}, {"model": "auth.permiss
+ion", "pk": 30, "fields": {"name": "Can change group", "content_type": 8, "codename": "change_group"}}, {"model"
+: "auth.permission", "pk": 31, "fields": {"name": "Can delete group", "content_type": 8, "codename": "delete_gro
+up"}}, {"model": "auth.permission", "pk": 32, "fields": {"name": "Can view group", "content_type": 8, "codename"
+: "view_group"}}, {"model": "auth.permission", "pk": 33, "fields": {"name": "Can add content type", "content_typ
+e": 9, "codename": "add_contenttype"}}, {"model": "auth.permission", "pk": 34, "fields": {"name": "Can change co
+ntent type", "content_type": 9, "codename": "change_contenttype"}}, {"model": "auth.permission", "pk": 35, "fiel
+ds": {"name": "Can delete content type", "content_type": 9, "codename": "delete_contenttype"}}, {"model": "auth.
+permission", "pk": 36, "fields": {"name": "Can view content type", "content_type": 9, "codename": "view_contentt
+ype"}}, {"model": "auth.permission", "pk": 37, "fields": {"name": "Can add session", "content_type": 10, "codena
+me": "add_session"}}, {"model": "auth.permission", "pk": 38, "fields": {"name": "Can change session", "content_t
+ype": 10, "codename": "change_session"}}, {"model": "auth.permission", "pk": 39, "fields": {"name": "Can delete
+session", "content_type": 10, "codename": "delete_session"}}, {"model": "auth.permission", "pk": 40, "fields": {
+"name": "Can view session", "content_type": 10, "codename": "view_session"}}, {"model": "auth.permission", "pk":
+ 41, "fields": {"name": "Can add \u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439", "content_t
+ype": 11, "codename": "add_comment"}}, {"model": "auth.permission", "pk": 42, "fields": {"name": "Can change \u0
+41a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439", "content_type": 11, "codename": "change_commen
+t"}}, {"model": "auth.permission", "pk": 43, "fields": {"name": "Can delete \u041a\u043e\u043c\u043c\u0435\u043d
+\u0442\u0430\u0440\u0438\u0439", "content_type": 11, "codename": "delete_comment"}}, {"model": "auth.permission"
+, "pk": 44, "fields": {"name": "Can view \u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439", "c
+ontent_type": 11, "codename": "view_comment"}}, {"model": "auth.permission", "pk": 45, "fields": {"name": "Can a
+dd \u041e\u0442\u0437\u044b\u0432", "content_type": 12, "codename": "add_review"}}, {"model": "auth.permission",
+ "pk": 46, "fields": {"name": "Can change \u041e\u0442\u0437\u044b\u0432", "content_type": 12, "codename": "chan
+ge_review"}}, {"model": "auth.permission", "pk": 47, "fields": {"name": "Can delete \u041e\u0442\u0437\u044b\u04
+32", "content_type": 12, "codename": "delete_review"}}, {"model": "auth.permission", "pk": 48, "fields": {"name"
+: "Can view \u041e\u0442\u0437\u044b\u0432", "content_type": 12, "codename": "view_review"}}, {"model": "auth.gr
+oup", "pk": 1, "fields": {"name": "\u0413\u0440\u0443\u043f\u043f\u0430 1", "permissions": []}}, {"model": "auth
+.group", "pk": 2, "fields": {"name": "\u0413\u0440\u0443\u043f\u043f\u0430 2", "permissions": []}}, {"model": "u
+sers.users", "pk": 1, "fields": {"password": "pbkdf2_sha256$150000$Ty64DUqp2Ogm$QNRPoyto84g0XaYNlGAjj17/G7i4J5L3
+pqNiQL3NEz0=", "last_login": "2022-11-15T13:56:20.597Z", "is_superuser": true, "username": "admin", "first_name"
+: "", "last_name": "", "is_staff": true, "is_active": true, "date_joined": "2022-11-15T13:55:36.964Z", "role": "
+user", "bio": "", "email": "sipavin@gmail.com", "groups": [], "user_permissions": []}}, {"model": "admin.logentr
+y", "pk": 1, "fields": {"action_time": "2022-11-15T13:57:09.242Z", "user": 1, "content_type": 8, "object_id": "1
+", "object_repr": "\u0413\u0440\u0443\u043f\u043f\u0430 1", "action_flag": 1, "change_message": "[{\"added\": {}
+}]"}}, {"model": "admin.logentry", "pk": 2, "fields": {"action_time": "2022-11-15T13:57:17.725Z", "user": 1, "co
+ntent_type": 8, "object_id": "2", "object_repr": "\u0413\u0440\u0443\u043f\u043f\u0430 2", "action_flag": 1, "ch
+ange_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 3, "fields": {"action_time": "2022-11-15
+T13:57:38.986Z", "user": 1, "content_type": 3, "object_id": "1", "object_repr": "\u0416\u0430\u043d\u0440 1", "a
+ction_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 4, "fields": {"action
+_time": "2022-11-15T13:57:50.647Z", "user": 1, "content_type": 3, "object_id": "2", "object_repr": "\u0416\u0430
+\u043d\u0440 2", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 5,
+ "fields": {"action_time": "2022-11-15T13:58:14.647Z", "user": 1, "content_type": 2, "object_id": "1", "object_r
+epr": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f 1", "action_flag": 1, "change_message": "[{\"added
+\": {}}]"}}, {"model": "admin.logentry", "pk": 6, "fields": {"action_time": "2022-11-15T13:58:25.313Z", "user":
+1, "content_type": 2, "object_id": "2", "object_repr": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f 2
+", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 7, "fields": {"a
+ction_time": "2022-11-15T13:58:50.230Z", "user": 1, "content_type": 4, "object_id": "1", "object_repr": "\u0424\
+u0438\u043b\u044c\u043c1", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry"
+, "pk": 8, "fields": {"action_time": "2022-11-15T13:59:04.031Z", "user": 1, "content_type": 4, "object_id": "2",
+ "object_repr": "\u0424\u0438\u043b\u044c\u043c2", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"
+model": "admin.logentry", "pk": 9, "fields": {"action_time": "2022-11-15T13:59:39.081Z", "user": 1, "content_typ
+e": 12, "object_id": "1", "object_repr": "\u041d\u043e\u0440\u043c", "action_flag": 1, "change_message": "[{\"ad
+ded\": {}}]"}}, {"model": "admin.logentry", "pk": 10, "fields": {"action_time": "2022-11-15T13:59:54.978Z", "use
+r": 1, "content_type": 11, "object_id": "1", "object_repr": "\u0421\u0443\u043f\u0435\u0440", "action_flag": 1,
+"change_message": "[{\"added\": {}}]"}}, {"model": "reviews.review", "pk": 1, "fields": {"author": 1, "title": 1
+, "score": 6, "pub_date": "2022-11-15T13:59:39.079Z", "text": "\u041d\u043e\u0440\u043c"}}, {"model": "reviews.c
+omment", "pk": 1, "fields": {"author": 1, "review": 1, "text": "\u0421\u0443\u043f\u0435\u0440", "pub_date": "20
+22-11-15T13:59:54.974Z"}}]
